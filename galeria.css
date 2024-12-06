@@ -1,0 +1,28 @@
+section{
+    grid-template-columns: 1fr;
+}
+
+
+#kepek{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+
+}
+#kepek>img{
+    width: 100%;
+    height: auto;
+    border: 2px solid rgb(0,191,255);
+    border-radius: 5px;
+
+}
+
+@media only screen and (max-width: 500px) {
+    #kepek{
+        grid-template-columns: 1fr 1fr;
+    }
+    nav>a{
+        display: block;
+    }
+}
